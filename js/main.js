@@ -1,5 +1,6 @@
 $(document).ready(function(){
   var i = 1;
+  console.log(varurl);
   $('.getter').on('click',function(e){
     i++;
     e.preventDefault();
