@@ -3,7 +3,7 @@ title: Blogspotter
 email: info@blogspotter.co
 description: A collection of conversations with the style influencers of the web.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blogspotter.co" # the base hostname & protocol for your site
+url: "//blogspotter.co" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: /:title/
