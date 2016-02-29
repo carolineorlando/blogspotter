@@ -4,12 +4,8 @@
     <div class="description">
       <p>{{ site.description }}</p>
     </div>
-    <ul class="footer-nav">
-      {% for page in site.pages %}
-        {% if page.footer-nav == 'show' %}
-        <li><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
+    <ul class="footer-nav">{% for page in site.pages %}{% if page.footer-nav == 'show' %}
+        <li><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
     </ul>
     <div class="copyright">
       <p>{{ site.copyright }}</p>

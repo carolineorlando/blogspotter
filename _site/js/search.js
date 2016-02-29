@@ -20,7 +20,7 @@ jQuery(function() {
   });
 
   // Event when the form is submitted
-  $("#site_search").submit(function(){
+  $("#site_search").submit(function(event){
       event.preventDefault();
       var query = $("#search_box").val(); // Get the value for the text field
       var results = window.idx.search(query); // Get lunr to perform a search
@@ -42,7 +42,7 @@ jQuery(function() {
           var item = loaded_data[result.ref];
 
           // Build a snippet of HTML for this result
-          var appendString = '<li class="search-result-item"><a href="' + item.url + '"><img src="../../img/'+ item.slug +'/cover.jpg" /><span>' + item.title + ' <em>by ' + item.name + '</em></span></a></li>';
+          var appendString = '<li class="search-result-item"><a href="' + item.url + '/' + item.slug + '"><img src="' + item.url + '/img/'+ item.slug +'/cover.jpg" /><span>' + item.title + ' <em>by ' + item.name + '</em></span></a></li>';
 
           // Add it to the results
           $search_results.append(appendString);
