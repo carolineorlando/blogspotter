@@ -5,7 +5,7 @@ $(document).ready(function(){
     e.preventDefault();
     var max_pages = $(this).data('total-pages');
     $.ajax({
-      url: '../../page' + i + '',
+      url: '' + varurl + '/page' + i + '',
       type: 'GET',
       success: function(data){
         $(data).find('.posts ul li').appendTo('.posts ul');
