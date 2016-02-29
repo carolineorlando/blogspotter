@@ -1,13 +1,13 @@
 <footer class="footer">
   <div class="wrapper">
-    <a class="branding" href="{{ site.baseurl }}/"></a>
+    <a class="branding" href="{{ site.url }}/"></a>
     <div class="description">
       <p>{{ site.description }}</p>
     </div>
     <ul class="footer-nav">
       {% for page in site.pages %}
         {% if page.footer-nav == 'show' %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        <li><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
@@ -17,8 +17,8 @@
   </div>
 </footer>
 
-<script src="../../js/jquery.js"></script>
-<script src="../../js/main.js"></script>
-<script src="../../js/lunr.js"></script>
-<script src="../../js/search.js"></script>
+<script src="{{ site.url }}/js/jquery.js"></script>
+<script src="{{ site.url }}/js/main.js"></script>
+<script src="{{ site.url }}/js/lunr.js"></script>
+<script src="{{ site.url }}/js/search.js"></script>
 {% include gtm.html %}
