@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Blogspotter
+email: info@blogspotter.co
+description: A collection of conversations with the style influencers of the web.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blogspotter.co" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+
+copyright: copyright 2016 Glitter Groupe Media & Blogspotter all rights reserved
+
+paginate: 10
+paginate_path: "/page:num/"
+encoding: UTF-8
+
+gems: [jekyll-paginate]
+
+# Assets Pipeline
+assets:
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
