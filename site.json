@@ -1,0 +1,21 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+
+[
+  {% for post in site.posts %}
+
+      {
+        "title"       : {{ post.title | jsonify }},
+        "name"        : {{ post.blogger.name | jsonify }},
+        "url"         : {{ post.url | jsonify }},
+        "slug"         : {{ post.slug | jsonify }},
+        "date"        : {{ post.date | date: "%B %d, %Y" | jsonify }},
+        "categories"  : {{ post.categories | jsonify }},
+        "excerpt"     : {{ post.excerpt | jsonify }},
+        "content"     : {{ post.content | jsonify }}
+      } {% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]

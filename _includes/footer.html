@@ -1,0 +1,24 @@
+<footer class="footer">
+  <div class="wrapper">
+    <a class="branding" href="{{ site.baseurl }}/"></a>
+    <div class="description">
+      <p>{{ site.description }}</p>
+    </div>
+    <ul class="footer-nav">
+      {% for page in site.pages %}
+        {% if page.footer-nav == 'show' %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <div class="copyright">
+      <p>{{ site.copyright }}</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../../js/jquery.js"></script>
+<script src="../../js/main.js"></script>
+<script src="../../js/lunr.js"></script>
+<script src="../../js/search.js"></script>
+{% include gtm.html %}

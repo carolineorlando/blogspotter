@@ -1,0 +1,22 @@
+body {
+  color: $text-color;
+  background: $background-color;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+}
+
+p {
+  margin: $gutter/2 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $brand-color;
+  &:hover {
+    color: black;
+  }
+}

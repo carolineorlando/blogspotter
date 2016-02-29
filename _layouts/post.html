@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post__header">
+    <div class="cover">
+      <img class="photo" src="{{ site.baseurl }}/img/{{ page.slug }}/cover.jpg"/>
+    </div>
+    <h1 class="page-title" itemprop="name headline"><a href="{{ page.blogger.url }}" target="_blank">{{ page.title }}</a> {% if page.blogger.name %}<span>by {{ page.blogger.name }}</span>{% endif %}</h1>
+  </header>
+  <div class="post__content" itemprop="articleBody">
+    <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+
+    {% assign paragraphs = page.content | split: '<p>' %}
+    {% assign counter = 0 %}
+
+    {% for paragraph in paragraphs %}
+      {% assign counter = counter | plus:1 %}
+
+      {% if counter == 6 %}
+      <aside>
+        {% if page.blogger.name %}<p class="blogger-stat">Name: <span>{{ page.blogger.name }}</span></p>{% endif %}
+        {% if page.blogger.age %}<p class="blogger-stat">Age: <span>{{ page.blogger.age }}</span></p>{% endif %}
+        {% if page.blogger.location %}<p class="blogger-stat">Location: <span>{{ page.blogger.location }}</span></p>{% endif %}
+        {% if page.blogger.url%}<p class="blogger-stat url">URL:<span><a href="{{ page.blogger.url }}" target="_blank">{{ page.blogger.url }}</a></span></p>{% endif %}
+
+        {% if page.blogger.facebook or page.blogger.twitter or page.blogger.instagram or page.blogger.pinterest %}
+          <div class="social-links"><p>Find {{ page.title }} on:
+        {% endif %}
+
+        {% if page.blogger.facebook %}
+          <a class="social facebook" href="{{ page.blogger.facebook }}" target="_blank">Facebook</a>
+        {% endif %}
+
+        {% if page.blogger.twitter %}
+          <a class="social twitter" href="{{ page.blogger.twitter }}" target="_blank">Twitter</a>
+        {% endif %}
+
+        {% if page.blogger.instagram %}
+          <a class="social instagram" href="{{ page.blogger.instagram }}" target="_blank">Instagram</a>
+        {% endif %}
+
+        {% if page.blogger.pinterest %}
+          <a class="social pinterest" href="{{ page.blogger.pinterest }}" target="_blank">Pinterest</a>
+        {% endif %}
+
+        {% if page.blogger.facebook or page.blogger.twitter or page.blogger.instagram or page.blogger.pinterest %}
+          </p></div>
+        {% endif %}
+
+      </aside>
+      {% endif %}
+
+      {% if counter == 10 %}
+      <blockquote>"{{ page.blogger.quote }}" <em>&mdash; {{ page.blogger.name }}</em></blockquote>
+      {% endif %}
+
+    <p class="p--{{ counter }} p">{{ paragraph | remove: '</p>' }}</p>
+    {% endfor %}
+
+    {% if page.blogger.note %}
+      <img class="note" src="../img/{{ page.slug }}/note.jpg" />
+    {% endif %}
+
+  </div>
+</article>
