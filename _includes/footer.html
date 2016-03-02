@@ -6,6 +6,8 @@
     </div>
     <ul class="footer-nav">{% for page in site.pages %}{% if page.footer-nav == 'show' %}
         <li><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
+        <li><a href="//glittergroupe.com/contact" target="_blank">Contact</a><li>
+
     </ul>
     <div class="copyright">
       <p>{{ site.copyright }}</p>
