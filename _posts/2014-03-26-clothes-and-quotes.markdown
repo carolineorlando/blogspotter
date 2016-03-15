@@ -23,7 +23,7 @@ blogger:
   note: yes
 ---
 
-_Like many personal style bloggers, she inspires through her outfit choices. But **Shannon Rice** of **Clothes and Quotes **takes it one step further by adding some encouraging words as well. Her aim is to tell you how she feels while skipping the dramatic details. Her notebook of wisdom comes in handy, as she includes a quote with each post. Get a dose of knowledge with your fashion and learn more about Clothes and Quotes through Blogspotter._
+_Like many personal style bloggers, she inspires through her outfit choices. But **Shannon Rice** of **Clothes and Quotes** takes it one step further by adding some encouraging words as well. Her aim is to tell you how she feels while skipping the dramatic details. Her notebook of wisdom comes in handy, as she includes a quote with each post. Get a dose of knowledge with your fashion and learn more about Clothes and Quotes through Blogspotter._
 
 **How did you come up with the name for your blog?** I was on the phone with my mom one day and we were talking about Pinterest and she mentioned how the majority of my pins are just "clothes and quotes". As soon as she said it I knew it was perfect because it kind of embodied what I wanted my blog to be about at the time.
 
