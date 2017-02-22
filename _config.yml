@@ -1,20 +1,23 @@
-# Site settings
 title: Blogspotter
 email: info@blogspotter.co
 description: A collection of conversations with the style influencers of the web.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "//blogspotter.co" # the base hostname & protocol for your site
-# Build settings
+url: "http://blogspotter.co"
 markdown: kramdown
 permalink: /:title/
-
-copyright: Copyright 2016 Glitter Groupe Media & Blogspotter. All rights reserved.
-
-paginate: 10
-paginate_path: "/page:num/"
+copyright: Copyright 2013-2017 Glitter Groupe Media & Blogspotter. All rights reserved.
 encoding: UTF-8
-
-exclude: [vendor]
+exclude:
+  - node_modules
+  - package.json
+  - gulpfile.js
+  - src
+  - Gemfile
+  - CNAME
+  - README.md
+  - .gitignore
+  - .travis.yml
+include:
+  - _pages
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-redirect-from

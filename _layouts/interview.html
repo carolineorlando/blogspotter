@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% assign count = page.photo-count %}
+{% if count > 0 %}
+<div class="photo-strip">
+  {% if count == 1 %}<div class="strip-repeat" style="background-image:url({{ site.url }}/img/{{ page.slug }}/cover.jpg);"></div>
+  {% else %}
+  <div class="item-photo-strip">
+    {% for i in (1..count) %}<img src="{{ site.url }}/img/{{ page.slug }}/{{ page.slug }}-{{i}}.jpg" />{% endfor %}
+  </div>
+  {% endif %}
+  <div class="item-meta">
+    <h1 class="item-title"><a href="{{ page.blogger.url }}" target="_blank">{{ page.title }}</a></h1>
+    {% if page.blogger.name %}<span class="item-attribution">by {{ page.blogger.name }}</span>{% endif %}
+  </div>
+</div>
+{% else %}
+<div class="item-meta">
+  <h1 class="item-title"><a href="{{ page.blogger.url }}" target="_blank">{{ page.title }}</a></h1>
+  {% if page.blogger.name %}<span class="item-attribution">by {{ page.blogger.name }}</span>{% endif %}
+</div>
+{% endif %}
+
+<article class="item-full">
+  <div class="item-content">
+    <div class="interview-teaser">{{ page.content | smartify }}</div>
+    <ol class="interview">
+      {% assign total = page.interview | size %}
+      {% assign half = total | divided_by: 2 | round %}
+      {% for interview in page.interview %}
+      {% if forloop.index == half %}
+      <li>
+        <blockquote class="quote"><span class="quote-content">"{{page.blogger.quote}}"</span><span class="quote-attribution">&mdash; {{page.blogger.name}}</span></blockquote>
+      </li>{% endif %}
+      <li>
+        <p class="question">{{ interview.question | smartify }}</p>
+        <p class="answer">{{ interview.answer | smartify }}</p>
+      </li>{% endfor %}
+    </ol>
+    <footer class="interview-footer">
+        <span class="time">Interview published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time></span>{% if page.blogger.facebook or page.blogger.twitter or page.blogger.instagram or page.blogger.pinterest %}Find {% endif %}{% if page.blogger.url%}<a class="blog-url" href="{{ page.blogger.url }}" target="_blank">{{ page.title }}</a>{% endif %}{% if page.blogger.facebook or page.blogger.twitter or page.blogger.instagram or page.blogger.pinterest %} on <ul class="social-links">{% if page.blogger.facebook %}<li class="social facebook"><a href="{{ page.blogger.facebook }}" target="_blank">Facebook</a></li>{% endif %}{% if page.blogger.twitter %}<li class="social twitter"><a href="{{ page.blogger.twitter }}" target="_blank">Twitter</a></li>{% endif %}{% if page.blogger.instagram %}<li class="social instagram"><a href="{{ page.blogger.instagram }}" target="_blank">Instagram</a></li>{% endif %}{% if page.blogger.pinterest %}<li class="social pinterest"><a href="{{ page.blogger.pinterest }}" target="_blank">Pinterest</a></li>{% endif %}</ul>{% endif %}
+    </footer>
+  </div>
+</article>

@@ -1,25 +1,7 @@
 ---
-layout: frontpage
-nav: hide
-sitemap:
-  lastmod: 2016-02-29
-  priority: 0.7
-  changefreq: 'monthly'
+layout: default
 ---
 
-<div class="posts">
-  <ul>
-  {% assign counter = 0 %}
-  {% for post in paginator.posts %}
-    {% assign counter = counter | plus:1 %}
-    <li>
-      <a href="{{ post.url | prepend: site.url }}">
-        <img src="{{ site.url }}/img/{{ post.slug }}/cover.jpg"/>
-        <span>{{ post.title }} <em>by {{ post.blogger.name }}</em></span>
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
+<div>
+  <ul class="items"></ul>
 </div>
-<a class="getter" data-total-pages="{{ paginator.total_pages }}">More interviews</a>
-<a class="back">Back</a>
