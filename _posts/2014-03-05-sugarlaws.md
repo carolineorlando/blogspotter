@@ -1,7 +1,7 @@
 ---
 date: 2014-03-05 14:27:56+00:00
 excerpt: Her expert ensembles and cheerful color choices are her blog's main course, while must-try recipes and helpful everyday tips are served for dessert.
-layout: post
+layout: interview
 title: Sugarlaws
 categories: fashion
 blogger:

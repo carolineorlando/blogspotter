@@ -14,8 +14,6 @@ exclude:
   - Gemfile
   - CNAME
   - README.md
-  - .gitignore
-  - .travis.yml
 include:
   - _pages
 gems:
