@@ -22,9 +22,10 @@ var config = {
 jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll',
 messages = {
     jekyllBuild: 'Running: $ jekyll build'
-},
-env = args.env;
+};
 
+
+var env = args.env;
 
 // SCRIPTS task, use Browserify to make the magic happen
 gulp.task('scripts', function(){
