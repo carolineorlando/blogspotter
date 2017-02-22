@@ -1,1 +1,1 @@
-Sitemap: http://blogspotter.co/sitemap.xml
+Sitemap: https://blogspotter.co/sitemap.xml

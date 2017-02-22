@@ -41,9 +41,9 @@ interview:
   - question: Tell us one unconventional thing that blogging has taught you.
     answer: I don't know if it’s unconventional, but don't be too nice to companies who want you to promote their products on your blog. I see a lot of bloggers, and I have been one myself at one point, who accept any bad quality item a company sends their way and then tries to convince their readers that the ill-fitted jacket is in fact the best jacket they've had in years. Be honest.
   - question: If your best friend was about to start her own fashion blog, what would be one piece of must-have advice you'd give her?
-    answer: Funny you should say that, my best friend has a fashion blog and it's really good: [corneliahelleday.se](http://corneliahelleday.se). But in general I would say, don't copy anyone else's concept because no one wants to read something that has already been said and made. Instead use your own unique ideas and style to make something of your own. And good pictures is always crucial.
+    answer: Funny you should say that, my best friend has a fashion blog and it's really good: <a href="http://corneliahelleday.se" target="_blank">corneliahelleday.se</a>. But in general I would say, don't copy anyone else's concept because no one wants to read something that has already been said and made. Instead use your own unique ideas and style to make something of your own. And good pictures is always crucial.
 redirect_from:
   - /style-gossiper/
 ---
 
-_**Amanda Brohman** of **The Style Gossiper is not your ordinary 19-year-old. The super-chic blogger from Sweden  may be young, but she has a pretty loyal following - worldwide. In her own words, "she’d rather gossip about fashion than people". Now based in New York City, this Style Gossiper continues to inspire her readers with her fresh, minimalistic, and oh-so-real style.
+**Amanda Brohman** of **The Style Gossiper** is not your ordinary 19-year-old. The super-chic blogger from Sweden  may be young, but she has a pretty loyal following - worldwide. In her own words, "she’d rather gossip about fashion than people". Now based in New York City, this Style Gossiper continues to inspire her readers with her fresh, minimalistic, and oh-so-real style.
