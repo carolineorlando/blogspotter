@@ -41,5 +41,5 @@ interview:
     answer: Have a goal and a purpose from the start. I think it's easy to get overwhelmed by the amount of other people who are trying to do what you're doing, but that's the beauty of it. There is room for everyone in the fashion blogging world. That being said, you really should try to strive to be original and authentic in all that you do. Try not to compare what you’re doing to someone else. Comparison kills passion and without passion whatever you’re doing is essentially useless.
 ---
 
-**Amy Black is the Phoenix, Arizona based blogger behind **Amy's Vintage Closet**. Looking for a "creative outlet and space" where she could showcase her "love for all things fashion", Amy launched Amy's Vintage Closet in late 2011. She loves T's and leggings (comfort is key!), could never live without her hats, and confesses that "true style comes from within and has no boundaries". Meet Amy Black with Blogspotter today.
+**Amy Black** is the Phoenix, Arizona based blogger behind **Amy's Vintage Closet**. Looking for a "creative outlet and space" where she could showcase her "love for all things fashion", Amy launched Amy's Vintage Closet in late 2011. She loves T's and leggings (comfort is key!), could never live without her hats, and confesses that "true style comes from within and has no boundaries". Meet Amy Black with Blogspotter today.
   
