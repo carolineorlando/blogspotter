@@ -27,9 +27,12 @@ body {
 		height: $nav-height;
 	}
 }
+
 @media(max-width: $screen-sm){
 	main {
-		padding: 0 2em;
+		&.default {
+			padding: 0 2em;
+		}
 	}
 }
 

@@ -251,7 +251,7 @@ body {
     height: 48px; }
 
 @media (max-width: 768px) {
-  main {
+  main.default {
     padding: 0 2em; } }
 
 p,
