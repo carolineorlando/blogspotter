@@ -1,7 +1,7 @@
 title: Blogspotter
 email: info@blogspotter.co
 description: A collection of conversations with the style influencers of the web.
-url: "https://blogspotter.co"
+url: "http://blogspotter.co"
 markdown: kramdown
 permalink: /:title/
 copyright: Copyright 2013-2017 Glitter Groupe Media & Blogspotter. All rights reserved.
