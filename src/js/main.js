@@ -50,6 +50,9 @@ require('slick-carousel');
 			remove.push(i); // push the array items to toss
 		});
 
+		$('.items').find('.more').remove();
+		$('.items').append('<li class="more item"><a href="#" class="more-items">More</a></li>');
+
 		if(n >= shuffledInterviews.length)
 			$('.more-items').remove();
 
@@ -59,8 +62,6 @@ require('slick-carousel');
 				$('.footer').addClass('y');
 			}, 100);
 
-		$('.items').find('.more').remove();
-		$('.items').append('<li class="more item"><a href="#" class="more-items">More</a></li>');
 	}
 
 	$(window).on('load', getItems);

@@ -1,6 +1,6 @@
 ---
 date: 2014-02-01 12:00:53+00:00
-excerpt: Los Angeles based blogger <strong>Amber Kekich </strong>spends her days working in the downtown art district of the iconic California city. How cool is she?
+excerpt: Los Angeles based blogger Amber Kekich spends her days working in the downtown art district of the iconic California city. How cool is she?
 layout: interview
 title: Scene of Changery
 categories: fashion
@@ -33,5 +33,7 @@ interview:
     answer: Shiny white
   - question: What advice do you have for aspiring fashion bloggers?
     answer: To be different and keep working! People are inspired by what you are really working on and how you are changing the world, not just capturing it.
+redirect_from: /scene-changery/
 ---
-Los Angeles based blogger **Amber Kekich **spends her days working in the downtown art district of the iconic California city. How cool is she? This LA fashionista operates the fashion blog **Scene of Changery**. Along with blogging her heart out, Kekich designs a gorgeous women’s contemporary line. Amber's glamorous personality is fitting for a cultured LA woman who loves exploring Tumblr and reading the latest news. Her gorgeous long hair is featured alongside some fabulous, unique outfits on Scene of Changery.
+
+Los Angeles based blogger **Amber Kekich** spends her days working in the downtown art district of the iconic California city. How cool is she? This LA fashionista operates the fashion blog **Scene of Changery**. Along with blogging her heart out, Kekich designs a gorgeous women’s contemporary line. Amber's glamorous personality is fitting for a cultured LA woman who loves exploring Tumblr and reading the latest news. Her gorgeous long hair is featured alongside some fabulous, unique outfits on Scene of Changery.

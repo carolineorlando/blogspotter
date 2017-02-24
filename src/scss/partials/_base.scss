@@ -28,14 +28,6 @@ body {
 	}
 }
 
-@media(max-width: $screen-sm){
-	main {
-		&.default {
-			padding: 0 2em;
-		}
-	}
-}
-
 p,
 li {
 	margin: 1em 0;
@@ -169,15 +161,15 @@ img {
 			a {
 				display: inline-block;
 				font-family: $sans-block;
-				font-size: .75em;
+				font-size: .875em;
 				text-transform: uppercase;
    				transition: box-shadow 200ms ease-in-out;
+   				padding: .5em 1em;
+   				background: $navy;
+   				color: $putty;
+   				line-height: normal;
 				&:hover {
 					box-shadow: 0 4px 0 0 $putty;
-				}
-				&:focus {
-					outline: 1px dotted;
-					padding: 0;
 				}
 			}
 		}
@@ -186,12 +178,7 @@ img {
 			position: relative;
 			font-weight: normal;
 			&:focus {
-				outline: 2px dotted;
 				z-index: 1;
-				@media(max-width: $screen-xs){
-					outline: 0;
-					margin: .5em;
-				}
 			}
 			@media(min-width: $screen-xs){
 				&:hover,
@@ -216,13 +203,10 @@ img {
 			@media(max-width: $screen-xs){
 				visibility: visible;
 				opacity: 1;
-				background: $navy-sheer;
+				background: $navy;
 	    		padding: 2em;
     			text-align: right;
     			.item-title {
-    				display: block;
-    			}
-    			.item-attribution {
     				display: block;
     			}
 			}
@@ -235,17 +219,17 @@ img {
 				transition: background 200ms ease-in-out;
 			}
 			.item-title {
-				font-family: $sans-block;
-				font-size: 1.125em;
+				@media(min-width: $screen-xs){
+					font-size: 1.125em;
+					flex: 100%;
+				}
 				color: white;
-				flex: 100%;
 			}
 			.item-attribution {
-				font-family: $sans-serif;
-				font-style: italic;
-				font-size: 1.125em;
-				color: $putty;
-				flex: 100%;
+				@media(min-width: $screen-xs){
+					font-size: 1.125em;
+					flex: 100%;
+				}
 			}
 		}
 	}
@@ -281,7 +265,7 @@ img {
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		background: $navy-sheer;
+		// background: $navy-sheer;
 	}
 }
 
@@ -322,6 +306,8 @@ img {
 		font-weight: normal;
 		color: $clay;
 		font-style: italic;
+		margin-top: -$nav-height; // anchors fix
+		padding-top: $nav-height;
 	}
 	ul {
 		list-style: none;
