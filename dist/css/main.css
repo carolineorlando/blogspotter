@@ -280,8 +280,7 @@ img {
       bottom: 0;
       left: 0;
       right: 0;
-      background: #081A2D;
-      height: 48px; } }
+      background: #081A2D; } }
   .footer .menu {
     display: inline-block; }
     @media (max-width: 768px) {
