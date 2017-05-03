@@ -56,9 +56,12 @@ require('slick-carousel');
 	}
 
 	function getItemsScroll(){
-		//when we hit the bottom of the screen/window, load more items
-		if($(window).scrollTop() + $(window).height() == $(document).height()) {
-			getItems();
+		//trigger only if items container exists on the page
+		if($('.items').length > 0){
+			//when we hit the bottom of the screen/window, load more items
+			if($(window).scrollTop() + $(window).height() == $(document).height()) {
+				getItems();
+			}
 		}
 	}
 
