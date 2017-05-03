@@ -1,30 +1,143 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Blogspotter</title>
+    <description>A collection of conversations with the style influencers of the web.</description>
+    <link>http://blogspotter.co/</link>
+    <atom:link href="http://blogspotter.co/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 03 May 2017 15:32:15 +0000</pubDate>
+    <lastBuildDate>Wed, 03 May 2017 15:32:15 +0000</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>The Fashion Law</title>
+        <description>&lt;p&gt;If you’re curious about what’s happening in the legal world of fashion, &lt;strong&gt;The Fashion Law&lt;/strong&gt; by &lt;strong&gt;Julie Zerbo&lt;/strong&gt; is the place to be. Julie started writing articles in law school as a way to learn more about fashion law - and just a short time later &lt;strong&gt;The Fashion Law&lt;/strong&gt; was born. Today, TFL is frequented by both lawyers and non-lawyers who are looking for their daily-dose of fashionable legal commentary. We’re hooked, and if you’re not already - you should be, too. Meet &lt;strong&gt;Julie Zerbo&lt;/strong&gt; of &lt;strong&gt;The Fashion Law&lt;/strong&gt; with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 13:00:35 +0000</pubDate>
+        <link>http://blogspotter.co/the-fashion-law/</link>
+        <guid isPermaLink="true">http://blogspotter.co/the-fashion-law/</guid>
+        
+        
+        <category>lifestyle</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>The Black Barcode</title>
+        <description>&lt;p&gt;&lt;strong&gt;The Black Barcode&lt;/strong&gt; is what &lt;strong&gt;Madeline Smith&lt;/strong&gt; defines as a “place to come if you need help picking an outfit out for the next day”. She blogs to provide creative dressing inspiration for her readers, while giving them a sneak peek into her life. We love the glitter and gold scattered about &lt;strong&gt;The Black Barcode&lt;/strong&gt; and adore Madeline’s passion for her work. Meet &lt;strong&gt;Madeline&lt;/strong&gt; of &lt;strong&gt;The Black Barcode&lt;/strong&gt; with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2015 13:00:00 +0000</pubDate>
+        <link>http://blogspotter.co/the-black-barcode/</link>
+        <guid isPermaLink="true">http://blogspotter.co/the-black-barcode/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>UF Fashion Files</title>
+        <description>&lt;p&gt;&lt;strong&gt;Michelle Champalanne&lt;/strong&gt; launched &lt;strong&gt;UF Fashion Files&lt;/strong&gt; in 2012 as a class assignment. Now, she continues to blog and post part-time (she’s still in school) about everything from personal style to do-it-yourself tutorials. She confesses that the key to taking an amazing photo is “just to practice”, admits she’d opt for pink/rose gold over yellow gold any day, and stresses how important a media kit is for any blog. Meet &lt;strong&gt;Michelle&lt;/strong&gt; of &lt;strong&gt;UF Fashion Files&lt;/strong&gt; with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Mar 2015 13:00:55 +0000</pubDate>
+        <link>http://blogspotter.co/uf-fashion-files/</link>
+        <guid isPermaLink="true">http://blogspotter.co/uf-fashion-files/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>Primp &amp; Proper</title>
+        <description>&lt;p&gt;We’re totally into Kristyn Royster of Primp &amp;amp; Proper. It’s something about her style, or maybe her glittery southern charm, but we’re sure you’ll feel the same way. Originally from Tennessee but currently residing in Washington, D.C., Kristyn blogs about fashion, style, and more, collaborating with awesome brands like H&amp;amp;M and Julep. The bubbly blonde gave us a sneak peek into her blogging world. Meet &lt;strong&gt;Kristyn&lt;/strong&gt; with Blogspotter today!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Mar 2015 13:00:53 +0000</pubDate>
+        <link>http://blogspotter.co/primp-and-proper/</link>
+        <guid isPermaLink="true">http://blogspotter.co/primp-and-proper/</guid>
+        
+        
+        <category>lifestyle</category>
+        
+      </item>
+    
+      <item>
+        <title>Natalia Bosch</title>
+        <description>&lt;p&gt;Her self-titled blog is “like a photo diary, a place where I share my personal style, my love for fashion, adventures and basically everything that comes to my mind”. &lt;strong&gt;Natalia Bosch&lt;/strong&gt; of &lt;strong&gt;Natalia Bosch&lt;/strong&gt; has been blogging for just about 4 years. Her self-described personal style is “very eclectic, feminine and diverse”, she adores Chanel, and opts for Instagram over any other social media platform. We’re into her - and think you should be too. Meet Natalia of Natalia Bosch with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Mar 2015 13:00:51 +0000</pubDate>
+        <link>http://blogspotter.co/natalia-bosch/</link>
+        <guid isPermaLink="true">http://blogspotter.co/natalia-bosch/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>BEING/BE</title>
+        <description>&lt;p&gt;&lt;strong&gt;BreAnne Elenburg&lt;/strong&gt; is the Texan beauty behind &lt;strong&gt;BEING/BE&lt;/strong&gt;. She’s rather new to the blogging world (she officially started blogging August 2014) but she’s getting the hang of it rather quickly: she’s already amassed loyal a following and learned a thing or two. Meet &lt;strong&gt;BreAnne&lt;/strong&gt; of &lt;strong&gt;BEING/BE&lt;/strong&gt; with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Mar 2015 13:00:42 +0000</pubDate>
+        <link>http://blogspotter.co/beingbe/</link>
+        <guid isPermaLink="true">http://blogspotter.co/beingbe/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>Peaches In A Pod</title>
+        <description>&lt;p&gt;&lt;strong&gt;Whitney Damrau&lt;/strong&gt; and &lt;strong&gt;Blaire Bingham&lt;/strong&gt; are the brains behind &lt;strong&gt;Peaches In A Pod&lt;/strong&gt;, a Georgia-based fashion and style blog. They love peach cobbler (yum!), are close family friends (they’ve known each other for over 15 years), and are very thankful for what Instagram has done for their blog and their following. Meet Whitney and Blaire of Peaches In A Pod with Blogspotter today!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Mar 2015 13:00:25 +0000</pubDate>
+        <link>http://blogspotter.co/peaches-in-a-pod/</link>
+        <guid isPermaLink="true">http://blogspotter.co/peaches-in-a-pod/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>Miss Erin Says</title>
+        <description>&lt;p&gt;Her blog is her creative outlet, with a pinch of sass and a few parts sparkle. &lt;strong&gt;Erin Acheampong&lt;/strong&gt; of &lt;strong&gt;Miss Erin Says&lt;/strong&gt; has a personality as excitable as her blog! She describes her style as classic and feminine with a twist, opts for stripes over polka dots, and loves social media. The coolest thing that’s happened to her? She met the fabulous Tory Burch. Get to know Erin of Miss Erin Says with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Mar 2015 18:30:15 +0000</pubDate>
+        <link>http://blogspotter.co/miss-erin-says/</link>
+        <guid isPermaLink="true">http://blogspotter.co/miss-erin-says/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>Couture Crush</title>
+        <description>&lt;p&gt;She may only be 18 years of age, but &lt;strong&gt;Rei Fujita&lt;/strong&gt; of &lt;strong&gt;Couture Crush&lt;/strong&gt; has the blogging skill of a seasoned pro. The Japanese native bounces back and forth from Tokyo to Hawaii (yes, we’re jealous) and is heavily inspired by both cultures. She cites Blair Waldorf as one of her major sources of style inspiration, adores Audrey Hepburn’s elegance, and swears by IFB (&lt;a href=&quot;http://heartifb.com/&quot;&gt;Independent Fashion Bloggers&lt;/a&gt;) as a must-use tool for newbie bloggers. Meet Ms. Fujita with Blogspotter today.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Feb 2015 14:00:14 +0000</pubDate>
+        <link>http://blogspotter.co/couture-crush/</link>
+        <guid isPermaLink="true">http://blogspotter.co/couture-crush/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
+      <item>
+        <title>A Trendy Peace</title>
+        <description>&lt;p&gt;&lt;strong&gt;Kerri Ann Moriarty&lt;/strong&gt; of &lt;strong&gt;A Trendy Peace&lt;/strong&gt; knows a thing or two about blogging. The Bostonian has learned a thing or two about dressing for cold weather (thanks to Mother Nature’s gift of copious amounts of snow), she prefers espresso over a latte, and her main source of inspiration is other bloggers. Get to know the brunette beauty today with Blogspotter.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 14:00:27 +0000</pubDate>
+        <link>http://blogspotter.co/a-trendy-peace/</link>
+        <guid isPermaLink="true">http://blogspotter.co/a-trendy-peace/</guid>
+        
+        
+        <category>fashion</category>
+        
+      </item>
+    
   </channel>
 </rss>

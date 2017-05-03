@@ -1,8 +1,0 @@
-{% assign posts = site.posts | sort: "title" %}
-
-{% capture list %}
-{% for post in posts %}{% assign letter = post.title | slice: 0 | upcase %}{% if letter != this %}{{ letter | downcase }}{% if forloop.last %}{% else %}^{% endif %}{% assign this = letter %}{% endif %}{% endfor %}
-{% endcapture %}
-
-{% assign updated = list | split: "^" %}
-{% for l in updated %}<a href="#{{ l }}">{{ l }}</a>{% endfor %}

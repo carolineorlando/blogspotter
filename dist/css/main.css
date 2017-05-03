@@ -385,7 +385,6 @@ img {
         font-family: "Montserrat";
         font-size: .875em;
         text-transform: uppercase;
-        -webkit-transition: box-shadow 200ms ease-in-out;
         transition: box-shadow 200ms ease-in-out;
         padding: .5em 1em;
         background: #081A2D;
@@ -433,7 +432,6 @@ img {
           margin: auto;
           visibility: hidden;
           opacity: 0;
-          -webkit-transition: background 200ms ease-in-out;
           transition: background 200ms ease-in-out; } }
       .items .item-meta .item-title {
         color: white; }
@@ -454,7 +452,6 @@ img {
   position: relative; }
   .photo-strip .item-photo-strip {
     opacity: 0;
-    -webkit-transition: opacity 100ms ease;
     transition: opacity 100ms ease; }
     .photo-strip .item-photo-strip.y {
       opacity: 1; }
@@ -764,7 +761,6 @@ img {
   padding: 1em;
   color: #EFE3D1;
   cursor: pointer;
-  -webkit-transition: padding 200ms ease-in-out;
   transition: padding 200ms ease-in-out; }
   .slick-prev:hover, .slick-prev:focus,
   .slick-next:hover,
