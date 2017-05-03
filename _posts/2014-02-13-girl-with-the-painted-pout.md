@@ -42,4 +42,4 @@ interview:
   - question: What's one quote that you live by?
     answer: Don't bend; don't water it down; don't try to make it logical; don't edit your own soul according to the fashion. Rather, follow your most intense obsessions mercilessly. —Franz Kafka
 ---
-_**Lavinia** launched **Girl with The Painted Pout** needing an outlet and creative place to express her opinions and thoughts on fashion and style. She shies away from the standard photo-heavy style-blog rule and instead focuses on creative writing. Ms. Girl with The Painted Pout loves classic brick red (lipstick) and doesn't do glitter. She also loves to tweet. Learn more about Lavinia with Blogspotter.
+**Lavinia** launched **Girl with The Painted Pout** needing an outlet and creative place to express her opinions and thoughts on fashion and style. She shies away from the standard photo-heavy style-blog rule and instead focuses on creative writing. Ms. Girl with The Painted Pout loves classic brick red (lipstick) and doesn't do glitter. She also loves to tweet. Learn more about Lavinia with Blogspotter.

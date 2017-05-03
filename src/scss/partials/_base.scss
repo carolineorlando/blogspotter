@@ -40,18 +40,13 @@ img {
 
 .footer {
 	background: $cream;
-	padding: 1em;
+	padding: 2em;
 	margin: auto;
 	@media(max-width: $screen-sm){
 		margin-bottom: $nav-height;
 	}
 	text-align: center;
-	font-size: .75em;
-	opacity: 0;
-	transition: opacity 100ms ease;
-	&.y {
-		opacity: 1;
-	}
+	font-size: .875em;
 	p {
 		margin: .5em 0;
 	}
@@ -133,11 +128,6 @@ img {
 	list-style: none;
 	.item {
 		margin: 0;
-		opacity: 0;
-		transition: opacity 250ms ease-in-out;
-		&.y {
-			opacity: 1;
-		}
 		@media(min-width: $screen-xs){
 			width: 50%;
 		}
@@ -294,7 +284,7 @@ img {
 		padding: 1em 0;
 		border-bottom: 2px solid $putty;
 		a {
-			padding: .125em;
+			padding: .25em;
 			line-height: normal;
 			display: inline-block;
 		}

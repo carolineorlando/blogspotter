@@ -50,4 +50,4 @@ interview:
     answer: Don't abandon who you are or your own personal style because it's what sets you apart!
 ---
 
-**Cara Northcutt **is the beautiful brunette behind **Cara's Cliché**, a fashion/style blog based out of Los Angeles, California. She knows how to keep in it the family: her husband and her 9-year old daughter take turns snapping the stunning photographs found on her blog. She loves Instagram (both personally and for the branding of Cara's Cliché) and opts for pinstripes over solids (noting "when in doubt always opt for the unexpected details"). Meet the blogger behind Cara's Cliché with Blogspotter today.
+**Cara Northcutt** is the beautiful brunette behind **Cara's Cliché**, a fashion/style blog based out of Los Angeles, California. She knows how to keep in it the family: her husband and her 9-year old daughter take turns snapping the stunning photographs found on her blog. She loves Instagram (both personally and for the branding of Cara's Cliché) and opts for pinstripes over solids (noting "when in doubt always opt for the unexpected details"). Meet the blogger behind Cara's Cliché with Blogspotter today.

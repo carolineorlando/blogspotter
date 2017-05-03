@@ -13170,10 +13170,9 @@ require('slick-carousel');
 	var shuffledInterviews = shuffleArray(site.interviews);
 	var counter = 0;
 
-	function getItems(e){
-		e.preventDefault();
+	function getItems(){
 		counter++;
-		var n = 14;
+		var n = 20;
 		var $items = $('.items');
 		var remove = [];
 
@@ -13183,7 +13182,7 @@ require('slick-carousel');
 
 		$.each(shuffledInterviews, function(i,val){
 			if(i == n)
-				return false; // break out of the loop on n
+				return false; //break out of the loop on n
 
 			var item = '<li class="item">';
 			item += '<a href="'+ site.url + val.permalink +'">';
@@ -13195,27 +13194,26 @@ require('slick-carousel');
 			item += '</a>';
 			item += '</li>';
 			var $item = $(item);
+			
 			$items.append($item);
 			
-			remove.push(i); // push the array items to toss
+			remove.push(i); //push the array items to toss
 		});
 
-		$('.items').find('.more').remove();
-		$('.items').append('<li class="more item"><a href="#" class="more-items">More</a></li>');
-
 		if(n >= shuffledInterviews.length)
-			$('.more-items').remove();
-
-		setTimeout(
-			function(){ 
-				$('.item').addClass('y');
-				$('.footer').addClass('y');
-			}, 100);
+			return false;
 
 	}
 
+	function getItemsScroll(){
+		//when we hit the bottom of the screen/window, load more items
+		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			getItems();
+		}
+	}
+
 	$(window).on('load', getItems);
-	$('.items').on('click', '.more-items', getItems);
+	$(window).on('scroll', getItemsScroll);
 
 	$(window).on('load', function(){
 		var slickEl = '.item-photo-strip';
@@ -13228,7 +13226,6 @@ require('slick-carousel');
 		});
 		$('.item-photo-strip').addClass('y');
 	});
-
 
 })(jQuery);
 },{"jquery":1,"slick-carousel":2}]},{},[3])
