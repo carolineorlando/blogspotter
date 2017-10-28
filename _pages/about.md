@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 Blogspotter connects aspiring bloggers and other industry-ites to fashion and beauty bloggers. Through interviews with bloggers themselves, Blogspotter aims to teach, inform, and educate readers about blogging by providing guidance and insight from those who have already launched their own blogs.

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Legal
-permalink: /legal/
+permalink: "/legal/"
+layout: page
 ---
 
 **Please read and review the Terms of Use below. If you do not agree with the terms below, you must discontinue your use of this website.**
